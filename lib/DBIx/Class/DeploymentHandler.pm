@@ -92,13 +92,13 @@ or for upgrades:
 
 =head1 DESCRIPTION
 
-C<DBIx::Class::DeploymentHandler> is, as it's name suggests, a tool for
+C<DBIx::Class::DeploymentHandler> is, as its name suggests, a tool for
 deploying and upgrading databases with L<DBIx::Class>.  It is designed to be
 much more flexible than L<DBIx::Class::Schema::Versioned>, hence the use of
 L<Moose> and lots of roles.
 
 C<DBIx::Class::DeploymentHandler> itself is just a recommended set of roles
-that we think will not only work well for everyone, but will also yeild the
+that we think will not only work well for everyone, but will also yield the
 best overall mileage.  Each role it uses has it's own nuances and
 documentation, so I won't describe all of them here, but here are a few of the
 major benefits over how L<DBIx::Class::Schema::Versioned> worked (and
